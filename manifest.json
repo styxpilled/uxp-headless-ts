@@ -1,0 +1,51 @@
+{
+  "id": "gay.styxpilled.uxp-headless-ts",
+  "name": "Template: UXP Headless TS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "host": [
+    {
+      "app": "PS",
+      "minVersion": "22.0.0"
+    }
+  ],
+  "manifestVersion": 4,
+  "entrypoints": [
+    {
+      "type": "command",
+      "id": "writelayers",
+      "label": {
+        "default": "Write Layer Names to a File"
+      }
+    },
+    {
+      "type": "command",
+      "id": "printlayers",
+      "label": {
+        "default": "Print Layer Names to an alert"
+      }
+    }
+  ],
+  "icons": [
+    {
+      "width": 48,
+      "height": 48,
+      "path": "icons/plugin-icon.png",
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "darkest",
+        "dark",
+        "medium",
+        "lightest",
+        "light",
+        "all"
+      ],
+      "species": [
+        "pluginList"
+      ]
+    }
+  ]
+}

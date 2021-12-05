@@ -1,0 +1,9 @@
+{
+  "name": "uxp-headless-ts",
+  "version": "1.0.0",
+  "description": "Headless TS PS UXP plugin template",
+  "author": "styxpilled",
+  "devDependencies": {
+    "uxp-types": "^0.1.2"
+  }
+}

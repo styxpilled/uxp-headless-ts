@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "sourceMap": false,
+        "lib": [ "dom", "es2015" ],
+        "typeRoots": [
+            "node_modules/@types",
+            "node_modules/uxp-types",
+        ],
+        "types": [
+            "uxp",
+            "photoshop"
+        ]
+    },
+    "include": [
+        "*.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
